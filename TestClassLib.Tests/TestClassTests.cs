@@ -6,6 +6,7 @@ public class TestClassTests
     [InlineData(1, 6, 7)]
     [InlineData(-98, 6, -92)]
     [InlineData(5, 7, 12)]
+    [InlineData(6, -98, -1)]
     public void Test_AddMethod(int a, int b, int expected)
     {
         // arrange
