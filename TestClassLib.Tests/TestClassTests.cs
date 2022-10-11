@@ -4,7 +4,7 @@ public class TestClassTests
 {
     [Theory]
     [InlineData(1, 6, 7)]
-    [InlineData(6, -98, 92)]
+    [InlineData(-98, 6, 92)]
     [InlineData(5, 7, 12)]
     public void Test_AddMethod(int a, int b, int expected)
     {
